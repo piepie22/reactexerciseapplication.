@@ -2,11 +2,13 @@ import React, { useState } from "react"; //usestate
 import "./design.css"; //importing my css
 import RepetitionExercise from "./components/RepetitionExercise"; //file paths
 import DurationExercise from "./components/DurationExercise"; //file paths
+import RunningExercise from "./components/RunningExercise";
+
 //exercises
 const exercises = [
   { name: "Push-Ups", type: "repetition" },
   { name: "Planks", type: "duration" },
-  { name: "Running", type: "duration" },
+  { name: "Running", type: "running" },
   { name: "Sit-Ups", type: "repetition" },
   { name: "Squats", type: "repetition" },
 ];
@@ -15,7 +17,9 @@ function App() {
   const exerciseComps = {
     repetition: RepetitionExercise,
     duration: DurationExercise,
+    running: RunningExercise,
   };
+
   const onReturn = () => setExercise(null);
   if (exercise) {
     const ExerciseComp = exerciseComps[exercise.type];
