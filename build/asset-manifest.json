@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactexerciseapplication./static/css/main.511312b3.css",
+    "main.js": "/reactexerciseapplication./static/js/main.67f04348.js",
+    "static/js/453.61f4680e.chunk.js": "/reactexerciseapplication./static/js/453.61f4680e.chunk.js",
+    "index.html": "/reactexerciseapplication./index.html",
+    "main.511312b3.css.map": "/reactexerciseapplication./static/css/main.511312b3.css.map",
+    "main.67f04348.js.map": "/reactexerciseapplication./static/js/main.67f04348.js.map",
+    "453.61f4680e.chunk.js.map": "/reactexerciseapplication./static/js/453.61f4680e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511312b3.css",
+    "static/js/main.67f04348.js"
+  ]
+}
